@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/eventId"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Events" />
+        <item
+            android:id="@+id/resultId"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Result" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/patId"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Partner" />
+    </group>
+
+    <item android:title="Head Section">
+        <menu>
+            <item
+                android:id="@+id/detId"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Details" />
+            <item
+                android:id="@+id/headId"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Event Head" />
+        </menu>
+    </item>
+
+</menu>
